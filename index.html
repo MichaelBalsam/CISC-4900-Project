@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8" />
+    <title>LearnCS</title>
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="HomeStyle.css">
+</head>
+
+<body>
+    <div class="container">               
+        <div class="nav-wrapper">           
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                   <a href="index.html">Home</a>  
+                </div>
+
+                 <div class="nav-link-wrapper">
+                  <a href="About.html">About</a>   
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>LearnCS.com</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="topic-items-wrapper">
+      
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image1.jpg)"></div>
+      
+                <div class="img-text-wrapper">
+                  
+                  <div class="subtitle"><a href="Computer Science.html">Introduction to computer science topics.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image2.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                  
+      
+                  <div class="subtitle"><a href="Computer Basics.html">Introduction to Computer Basics Tutorial.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image3.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                  
+      
+                  <div class="subtitle"><a href="MySQL.html">Introduction to programming in MYSQL.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image4.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                
+      
+                  <div class="subtitle"><a href="Web Development.html">Introduction to web development using HTML5, JavaScript, and CSS.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image5.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                
+      
+                  <div class="subtitle"><a href="Java.html">Introduction to programming in Java.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image6.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                 
+      
+                  <div class="subtitle"><a href="C++.html">Introduction to programming in C++.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image7.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                 
+      
+                  <div class="subtitle"><a href="Microsoft.html">Introduction to Microsoft Office and office products including word, excel, and powerpoint.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image8.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                 
+      
+                  <div class="subtitle"><a href="Resources.html">This section contains all the resources used for this website.</a></div>
+                </div>
+              </div>
+
+              <div class="topic-item-wrapper">
+                <div class="topic-img-background" style="background-image:url(images/Image9.jpg)"></div>
+
+                <div class="img-text-wrapper">
+                 
+      
+                  <div class="subtitle"><a href="CodeTester.html">This is a place to practice whatever new code you have learned.</a></div>
+                </div>
+              </div>
+           
+            </div>
+        </div>
+      </div>
+</body>
+
+<script>
+  const topicItems = document.querySelectorAll('.topic-item-wrapper');
+
+  topicItems.forEach(topicItem => {
+    topicItem.addEventListener('mouseover', () => {
+      console.log(topicItem.childNodes[1].classList)
+      topicItem.childNodes[1].classList.add('image-blur');
+    });
+
+    topicItem.addEventListener('mouseout', () => {
+      console.log(topicItem.childNodes[1].classList)
+      topicItem.childNodes[1].classList.remove('image-blur');
+    });
+  });
+
+</script>
+
+</html>

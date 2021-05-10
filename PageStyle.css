@@ -1,0 +1,273 @@
+body {
+    font-family: "Lato", sans-serif;
+    padding-left: 12px;
+  }
+
+p.TextStyle{
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+div.divStyle > h2{
+  color: #014379;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+div.divStyle > h3{
+  color: rgb(38, 40, 107);
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+div.divStyle > h4{
+  color: rgb(49, 113, 209);
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+div.divStyle > li{
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  padding: 5px 0px;
+}
+
+img.ImageStyle{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+img.ImageStyle2{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+
+img.ImageStyle3{
+  display: block;
+
+  margin-right: auto;
+  width: 60%;
+}
+
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+
+div.column {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 10px;
+
+}
+
+div.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+  .sidenav {
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 95px;
+    left: 1px;
+    bottom: 1px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 0px 0px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(49, 113, 209);
+    display: block;
+    border: rgb(49, 113, 209);
+  }
+  
+  .sidenav a:hover {
+    color: darkblue;
+    transition: 0.3s ease-out;
+  }
+  
+  .sidenav a:active {
+    color: blue;
+  }
+
+  div.sidenav > h3{
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  background-color:  #014379;
+  margin-top: 0px;
+  padding-bottom: 3px;
+  padding: 1rem;
+  }
+
+  
+  hr.style {
+    margin-left: -26px;
+   
+  }
+
+  .vertical {
+  border-left: 1.5px solid  #014379;
+  padding-top: 6px;
+  height: 100%;
+  position: fixed;
+  left: 51%;
+  margin-left: 490px;
+}
+
+header nav {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+  width: 217px;
+  background-color:  #eee;
+  position: fixed;
+  height: 100%;
+}
+
+header nav h1.Resoruces{
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  background-color: #014379;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: -47px;
+  padding-bottom: 3px;
+}
+
+header nav a{
+  color: rgb(49, 113, 209);
+  
+}
+
+header nav a:hover{
+  color: darkblue;
+  transition: 0.3s ease-out;
+  
+}
+
+.footer-container{
+  background-color: rgb(194, 192, 192);
+  padding: 4rem 0 4rem 0;
+  margin: 100px;
+  margin-left: 170px;
+  margin-top: 10px;
+  margin-bottom: 0rem;
+  margin-right: 237px;
+  height: 100%;
+  position: relative;
+}
+
+.footer{
+  width: 80%;
+  height: 40vh;
+  background-color: rgb(194, 192, 192);
+  color: rgb(49, 113, 209);
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.footer-header{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+.footer-header h2{
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.footer-header a{
+  color: white;
+}
+
+.footer-header a:hover{
+  color: blue;
+  transition: 0.3s ease-out;
+}
+
+aside BlockQuote{
+  color: white;
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, Serif;
+  background-color:rgb(49, 113, 209);
+  padding: 10px;
+  margin-left: -50px;
+}
+
+footer{
+  color: white;
+  text-align: center;
+}
+
+footer a{
+  color: white; 
+}
+
+footer a:hover{
+color: blue;
+transition: 0.3s ease-out;
+}
+  
+  .main {
+    margin-left: 200px; /* Same width as the sidebar + left position in px */
+    font-size: 24px; /* Increased text to enable scrolling */
+    padding: 0px 10px ;
+    margin-right: 250px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
